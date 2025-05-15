@@ -55,6 +55,7 @@ choose 1 to do transactions
 
 ## Transaction Details
 
+![image-2](https://github.com/user-attachments/assets/9297c1d1-ff2f-45f1-8bb6-fcfbf5a53aac)
 
 
 ## Monitoring
