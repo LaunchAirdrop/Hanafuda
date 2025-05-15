@@ -52,8 +52,9 @@ choose 1 to do transactions
 - Open Hana Dashboard : https://hanafuda.hana.network/dashboard
 - Click F12 to open console
 - Find Application and choose session storage
-- Select hana and copy your refreshToken ![image-2](https://github.com/user-attachments/assets/9297c1d1-ff2f-45f1-8bb6-fcfbf5a53aac)
-![image](image-2.png)
+- Select hana and copy your refreshToken
+  # Example:
+   ![image-2](https://github.com/user-attachments/assets/9297c1d1-ff2f-45f1-8bb6-fcfbf5a53aac) 
 - Edit token.txt paste your refresh token
 
 run the script
