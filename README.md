@@ -52,7 +52,7 @@ choose 1 to do transactions
 - Open Hana Dashboard : https://hanafuda.hana.network/dashboard
 - Click F12 to open console
 - Find Application and choose session storage
-- Select hana and copy your refreshToken
+- Select hana and copy your refreshToken ![image-2](https://github.com/user-attachments/assets/9297c1d1-ff2f-45f1-8bb6-fcfbf5a53aac)
 ![image](image-2.png)
 - Edit token.txt paste your refresh token
 
@@ -66,10 +66,6 @@ python3 main.py -a 2
 2. Display ETH Information
 3. Process transactions
 4. Monitor and display user stats
-
-## Transaction Details
-
-![image-2](https://github.com/user-attachments/assets/9297c1d1-ff2f-45f1-8bb6-fcfbf5a53aac)
 
 
 ## Monitoring
