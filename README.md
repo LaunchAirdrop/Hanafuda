@@ -46,6 +46,20 @@ python3 main.py
 
 choose 1 to do transactions
 
+## Run grow and open garden boxes
+
+**First You Need To Get Your Refresh Token**
+- Open Hana Dashboard : https://hanafuda.hana.network/dashboard
+- Click F12 to open console
+- Find Application and choose session storage
+- Select hana and copy your refreshToken
+![image](image-2.png)
+- Edit token.txt paste your refresh token
+
+run the script
+```bash
+python3 main.py -a 2
+```
 
 # The bot will:
 1. Login wallet
