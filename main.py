@@ -38,15 +38,6 @@ headers = {
     'Content-Type': 'application/json',
     'User-Agent': "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
 }
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1372711382927020172/UDqsVUnIUzCnKiERlpkdwqazfGT982K9ULEeIH7eqVtMlYj12dXxhILC75In3f89Uitc"
-
-async def send_discord_message(session, content):
-    payload = {"content": content}
-    try:
-        await session.post(DISCORD_WEBHOOK_URL, json=payload)
-    except:
-        pass  # Silent failure
-
 
 async def colay(session, url, method, payload_data=None):
     async with session.request(method, url, headers=headers, json=payload_data) as response:
